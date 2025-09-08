@@ -4,7 +4,7 @@ function Footer() {
     <footer style={{ backgroundColor: "rgb(250, 250, 250)" }}>
       <div className="container border-top mt-5">
         <div className="row mt-5">
-          <div className="col">
+          <div className="col px-5">
             <img src="media/images/Finverse.png" style={{ width: "50%" }}></img>
             <p>© 2010 - 2025, Finverse Broking Ltd. All rights reserved.</p>
           </div>
@@ -275,7 +275,7 @@ function Footer() {
             <br></br>
           </div>
         </div>
-        <div className="mt-5 fs-14 text-muted">
+        <div className=" text-muted p-5" style={{fontSize:"0.8em"}}>
           <p>
             Finverse Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration
             no.: INZ000031633 CDSL/NSDL: Depository services through Finverse
@@ -341,8 +341,8 @@ function Footer() {
           </p>
         </div>
       </div>
-      <div className="row px-5">
-        <div className="col text-muted fs-10">
+      <div className="row px-5 "style={{fontSize:"0.8em"}}>
+        <div className="col text-muted px-5">
           <a
             className="text-muted p-5"
             href=""
@@ -353,7 +353,7 @@ function Footer() {
         </div>
         <div className="col text-muted fs-10">
           <a
-            className="text-muted p-3"
+            className="text-muted "
             href=""
             style={{ textDecoration: "none" }}
           >
@@ -362,7 +362,7 @@ function Footer() {
         </div>
         <div className="col text-muted fs-10">
           <a
-            className="text-muted p-2"
+            className="text-muted "
             href=""
             style={{ textDecoration: "none" }}
           >
@@ -371,7 +371,7 @@ function Footer() {
         </div>
         <div className="col text-muted fs-10">
           <a
-            className="text-muted p-2"
+            className="text-muted "
             href=""
             style={{ textDecoration: "none" }}
           >
@@ -380,7 +380,7 @@ function Footer() {
         </div>
         <div className="col text-muted fs-10">
           <a
-            className="text-muted p-2"
+            className="text-muted "
             href=""
             style={{ textDecoration: "none" }}
           >
@@ -389,7 +389,7 @@ function Footer() {
         </div>
         <div className="col text-muted fs-10">
           <a
-            className="text-muted p-2"
+            className="text-muted "
             href=""
             style={{ textDecoration: "none" }}
           >
@@ -398,7 +398,7 @@ function Footer() {
         </div>
         <div className="col text-muted fs-10">
           <a
-            className="text-muted p-2"
+            className="text-muted "
             href=""
             style={{ textDecoration: "none" }}
           >
@@ -407,17 +407,17 @@ function Footer() {
         </div>
         <div className="col text-muted fs-10">
           <a
-            className="text-muted p-2"
+            className="text-muted "
             href=""
             style={{ textDecoration: "none" }}
           >
             For investor's attention
           </a>
         </div>
-        <div className="col text-muted fs-10">
+        <div className="col text-muted fs-10 px-5">
           <a
           
-            className="text-muted p-2"
+            className="text-muted "
             href=""
             style={{ textDecoration: "none" }}
           >
