@@ -12,7 +12,7 @@ function HomePage() {
     return ( 
     <>
         <Navbar/>
-        <Hero/><i class="fa fa-user-circle" aria-hidden="true"></i>
+        <Hero/>
         <Awards/>
         <Stats/>
         <Pricing/>
