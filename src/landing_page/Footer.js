@@ -275,7 +275,7 @@ function Footer() {
             <br></br>
           </div>
         </div>
-        <div className="mt-5 fs-8 text-muted">
+        <div className="mt-5 fs-14 text-muted">
           <p>
             Finverse Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration
             no.: INZ000031633 CDSL/NSDL: Depository services through Finverse
