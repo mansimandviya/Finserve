@@ -14,3 +14,13 @@ code {
 .nav-link{
   margin-left: 40px;
 }
+#herowrapper{
+ background-color: rgb(58, 139, 221);
+ color: white;
+}
+#supportwrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+
+}
