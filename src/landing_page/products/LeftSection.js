@@ -3,8 +3,10 @@ function LeftSection({
   imageURL,
   productName,
   productDescription,
-  tryDemo,
-  learnMore,
+  link1,
+  link2,
+  linkText1,
+  linkText2,
   googlePlay,
   appStore,
 }) {
@@ -17,8 +19,8 @@ function LeftSection({
             <h2>{productName}</h2>
             <p className="fs-5 mt-4">{productDescription}</p>
             <div className="my-4 ">
-            <a className="" href={tryDemo} style={{textDecoration:'none'}}>Try Demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-            <a href={learnMore} style={{textDecoration:'none',marginLeft:'50px'}}>Learn More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            <a className="" href={link1} style={{textDecoration:'none'}}>{linkText1}</a>
+            <a href={link2} style={{textDecoration:'none',marginLeft:'50px'}}>{linkText2} </a>
             </div>
             <div className="mt-4"> 
             <a  href={googlePlay} ><img src="media/images/googlePlayBadge.svg"></img></a>
