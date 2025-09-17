@@ -57,7 +57,6 @@ Create a .env file inside the backend/ folder and configure the following:
 
 📸 Screenshots
 
-<img width="1895" height="1017" alt="image" src="https://github.com/user-attachments/assets/b2c94860-ea62-438b-bd68-874841819089" />
 
 
 📌 Future Enhancements
